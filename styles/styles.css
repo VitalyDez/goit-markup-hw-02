@@ -71,7 +71,7 @@ body {
 }
 
 .menu-link {
-    color: var(--accent-color);
+    color: var(--primary-color);
     text-decoration: none;
     font-family: var(--primary-font);
     font-size: var(--secondary-font-size);
@@ -92,6 +92,7 @@ body {
     font-size: 44px;
     font-weight: var(--bolder-font);
     text-align: center;    
+    margin: 0 auto;
 }
 
 .slider-btn {
@@ -100,6 +101,7 @@ body {
     height: 50px;
     background: var(--accent-color); 
     color: #FFFFFF;   
+    text-align: center;
 }
 
 
