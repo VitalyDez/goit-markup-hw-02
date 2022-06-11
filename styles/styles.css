@@ -1,4 +1,139 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --normal-font: 400;
+    --medium-font: 500;
+    --bold-font: 700; 
+    --bolder-font: 900;
+    --primary-font-size: 16px;
+    --secondary-font-size: 14px;
+}
+
+body {
+    font-size: var(--primary-font-size);
+}
+
+.content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
 
 
-:root {}
+/* header */
+
+.header {
+    padding: 24px 0 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+}
+
+.logo {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: var(--bold-font);
+    margin-right: 93px;
+    /* width: 145px;
+    height: 31px;
+    display: block; */
+}
+
+.logo-first {
+    color: var(--accent-color);    
+}
+
+.menu {
+    margin-right: 331px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin: 50px;
+
+    /* font-family: var(--primary-font);
+    font-size: var(--secondary-font-size);
+    font-weight: var(--medium-font); */
+    /* padding: 16px 0; */
+}
+
+.menu-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: var(--secondary-font-size);
+    font-weight: var(--medium-font);
+}
+
+/* end header */
+
+/* slider */
+
+.slider {
+    background-color: #2F303A;
+}
+
+.slider-text {
+    color: #FFFFFF;
+    font-family: var(--primary-font);
+    font-size: 44px;
+    font-weight: var(--bolder-font);
+    text-align: center;    
+}
+
+.slider-btn {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background: var(--accent-color); 
+    color: #FFFFFF;   
+}
+
+
+
+/* special */
+
+/* todo */
+
+/* team */
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    display: block;
+    color: #FFFFFF;
+}
+
+.contact-list {
+    list-style: none;
+    font-style: normal;
+    font-family: var(--primary-font);
+    font-size: var(--secondary-font-size);
+    font-weight: var(--normal-font);
+}
+
+/* portfolio */
+
+.portfolio-cards-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
