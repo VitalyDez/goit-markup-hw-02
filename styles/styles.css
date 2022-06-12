@@ -356,6 +356,7 @@ body {
     font-weight: var(--bold-font);
     font-size: 18px;
     line-height: 2x;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
@@ -364,3 +365,4 @@ body {
     line-height: 1.88;
 }
 
+/*end portfolio-cards */
