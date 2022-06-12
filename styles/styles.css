@@ -330,25 +330,31 @@ body {
 /*end portfolio-btn */
 
 /* portfolio-cards */
-.portfolio-cards {
+/* .portfolio-cards {
     font-family: var(--primary-font);
     font-size: var(--primary-font-size);
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 
-}
+} */
 
 .portfolio-cards-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-head {
-    font-weight: var(--medium-font);
+    font-weight: var(--bold-font);
     color: var(--primary-color);
+    line-height: 2x;
 }
 
 .portfolio-text {
